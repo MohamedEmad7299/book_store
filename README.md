@@ -12,7 +12,8 @@ A Flutter application for browsing and searching books, with offline caching sup
    git clone https://github.com/your-username/book_store.git
    cd book_store
 
-🧠 Design Decisions and Assumptions
+
+## 🧠 Design Decisions and Assumptions
 
 State Management:
 Used flutter_bloc for handling application states like loading, success, and error across fetching and searching books.
@@ -36,7 +37,7 @@ Responsiveness:
 Added early pagination trigger (300px before the end) for smoother user experience.
 
 
-🛠️ Libraries Used
+## 🛠️ Libraries Used
 
 flutter_bloc - State management
 
@@ -56,7 +57,7 @@ fluttertoast - Displaying quick user messages
 
 flutter_svg - Rendering SVG images
 
-✨ Features
+## ✨ Features
 
  - List books from GutenDex API
 
@@ -70,7 +71,7 @@ flutter_svg - Rendering SVG images
 
 - Detailed error and loading states
 
-📌 Notes
+## 📌 Notes
 
 - The search functionality will use the API directly and update the cache based on the search query.
 
@@ -82,7 +83,7 @@ flutter_svg - Rendering SVG images
 
 - No authentication or complex user management is involved — it's focused purely on book exploration.
 
-🧹 Future Improvements
+## 🧹 Future Improvements
 
 - Add favorite books feature.
 
@@ -90,5 +91,5 @@ flutter_svg - Rendering SVG images
 
 - Add unit testing and widget testing.
 
-📸 Preview
+## 📸 Preview
 https://youtube.com/shorts/X2_iIG8LO1k?si=Y1HZwS5mHGsRezQL 
